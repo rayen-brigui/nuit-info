@@ -1,0 +1,30 @@
+.main {
+    padding: 20px;
+  }
+  
+  .similarityList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .similarityList li {
+    margin: 10px 0;
+    cursor: pointer;
+    color: #0070f3;
+  }
+  
+  .similarityList li:hover {
+    text-decoration: underline;
+  }
+  
+  .scenesContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .scenesContainer > div {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  

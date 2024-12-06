@@ -1,0 +1,37 @@
+.contactPage {
+    padding: 20px;
+    background-color: #eef2f7;
+    text-align: center;
+    color: #333;
+  }
+  
+  .contactInfo {
+    margin: 40px auto;
+    background-color: #f4f4f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .contactInfo h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo p {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .socials a {
+    display: inline-block;
+    margin: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .socials a:hover {
+    text-decoration: underline;
+  }
+  

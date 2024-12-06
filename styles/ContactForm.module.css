@@ -1,0 +1,55 @@
+.contactFormContainer {
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .contactFormContainer h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contactForm label {
+    text-align: left;
+    color: #555;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contactForm textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .submitButton {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
